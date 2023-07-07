@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 
+    - primary meta tags
+  -->
+    <title>Mario - Java Developer.</title>
+    <meta name="title" content="Mario - Java Developer." />
+    <meta
+      name="description"
+      content="This is a personal portfolio html template"
+    />
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./assets/images/logo/logo-mario-dev.png" type="image/svg+xml" />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- 
+    - preload images
+  -->
+    <link rel="preload" as="image" href="./assets/images/hero-banner.jpg" />
+    <link rel="preload" as="image" href="./assets/images/Blog.svg" />
+  </head>
+
+  <body>
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            src="./assets/images/logo/logo-mario-dev-2.png"
+            width="64"
+            height="24"
+            alt="home"
+          />
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <div class="navbar-top">
+            <a href="#" class="logo">
+              <img
+                src="./assets/images/logo-light.svg"
+                width="64"
+                height="24"
+                alt="home"
+              />
+            </a>
+
+            <button
+              class="nav-close-btn"
+              aria-label="close menu"
+              data-nav-toggler
+            >
+              <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+
+          <ul class="navbar-list">
+            <li>
+              <a href="#hero-section" class="navbar-link">Home</a>
+            </li>
+
+            <li>
+              <a href="#about-section" class="navbar-link">Resume</a>
+            </li>
+
+            <li>
+              <a href="#skills-section" class="navbar-link">Skills</a>
+            </li>
+
+            <li>
+              <a href="#project-section" class="navbar-link">Projects</a>
+            </li>
+
+            <li>
+              <a href="#contact-section" class="navbar-link">Contact</a>
+            </li>
+          </ul>
+
+          <div class="wrapper">
+            <a href="mailto:info@email.com" class="contact-link"
+              >info@email.com</a
+            >
+
+            <a href="tel:001234567890" class="contact-link"
+              >00 (123) 456 78 90</a
+            >
+          </div>
+
+          <ul class="social-list">
+            <li>
+              <a href="https://www.linkedin.com/in/mario-dlr/" class="social-link" target="_blank">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://wa.me/5218682980026" class="social-link" target="_blank">
+                <ion-icon name="logo-whatsapp"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://github.com/mario2099" class="social-link" target="_blank">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+
+        <section id="hero-section" class="section hero" aria-label="home">
+          <div class="container">
+
+            <div class="hero-content">
+              <h1
+                class="h1 hero-title"
+                data-reveal="top"
+                data-reveal-delay="0.5s"
+              >
+                Hi, I'm Mario. <br />
+                I'm a Backend Developer.
+              </h1>
+              <p class="hero-text" data-reveal="top"
+              data-reveal-delay="1s">Driven by curiosity, empowered by self-learning.</p>
+
+              <div class="btn-wrapper" data-reveal="top" data-reveal-delay="1.5s">
+                <a href="#" class="btn btn-primary">See My Works</a>
+
+                <a href="#" class="btn btn-secondary">Contact Me</a>
+              </div>
+              <div class="scroll-down" >
+                <p data-reveal="top" data-reveal-delay="2s">Scroll Down</p>
+                <button><img class="btn-scroll-down" src="/assets/images/down-arrow-filled.svg" alt="arrow-down" data-reveal="top" data-reveal-delay="2.2s" ></button>
+              </div>
+              
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #ABOUT
+      -->
+
+        <section id="about-section" class="section about" aria-label="about">
+          <div class="container">
+            <div class="grid-container">
+              <h1 class="h1 about-title">What Do I Do? - Backend Development</h1>
+              <div class="about-text" data-reveal="left">
+                
+
+                <p class="section-text">
+                  My primary focus is on the server-side of web development. I
+                  work with Java to design, build, and maintain the core logic
+                  and functionality that powers web applications. My expertise
+                  lies in utilizing Java frameworks and technologies such as
+                  Spring Boot, Hibernate, and Maven to deliver robust and
+                  scalable backend solutions.
+                </p>
+                <div class="btn-wrapper" data-reveal="top" data-reveal-delay="1s">
+                  <a href="./assets/CV.pdf" class="btn btn-primary" target="_blank">Resume | CV</a>
+                </div>
+              </div>
+
+              <ul class="about-image" data-reveal="right">
+                <img src="./assets/images/what-i-do-2.png" alt="" width="600" />
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #SKILLS
+      -->
+        <section id="skills-section" class="section skills" aria-label="about">
+          <div class="container">
+            <h2 class="h2 section-title">My Skills</h2>
+            <p class="section-text">
+              Backend
+            </p>
+            <ul class="skills-list">
+              <li data-reveal="bottom">
+                <div class="skill-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/skills-images/Java.png"
+                      width="40"
+                      height="40"
+                      loading="lazy"
+                      alt="Java icon"
+                    />
+                  </div>
+
+                  <h3 class="h4 card-title">Java</h3>
+
+                  <p class="card-text">
+                    Object-Oriented <br> Programming Language
+                  </p>
+                </div>
+              </li>
+
+              <li data-reveal="bottom" data-reveal-delay="0.25s">
+                <div class="skill-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/skills-images/Spring.png"
+                      width="52"
+                      height="52"
+                      loading="lazy"
+                      alt="spring icon"
+                    />
+                  </div>
+
+                  <h3 class="h4 card-title">Spring</h3>
+
+                  <p class="card-text">
+                    Java Application <br> Development Framework
+
+
+                  </p>
+                </div>
+              </li>
+
+              <li data-reveal="bottom" data-reveal-delay="0.5s">
+                <div class="skill-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/skills-images/postgresql.png"
+                      width="52"
+                      height="52"
+                      loading="lazy"
+                      alt="postgresql icon"
+                    />
+                  </div>
+
+                  <h3 class="h4 card-title">PostgreSQL</h3>
+
+                  <p class="card-text">
+                    Relational Database <br> Management System
+                  </p>
+                </div>
+              </li>
+
+              <li data-reveal="bottom" data-reveal-delay="0.75s">
+                <div class="skill-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/skills-images/mysql.jpg"
+                      width="52"
+                      height="52"
+                      loading="lazy"
+                      alt="mysql icon"
+                    />
+                  </div>
+
+                  <h3 class="h4 card-title">MySQL</h3>
+
+                  <p class="card-text">
+                    Relational Database <br> Management System
+                  </p>
+                </div>
+              </li>
+              <li data-reveal="bottom" data-reveal-delay="0.75s">
+                <div class="skill-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/skills-images/mongodb.png"
+                      width="25"
+                      height="25"
+                      loading="lazy"
+                      alt="web seo icon"
+                    />
+                  </div>
+
+                  <h3 class="h4 card-title">MongoDB</h3>
+
+                  <p class="card-text">
+                    NoSQL Document Database <br> (Basic Knowledge)
+                  </p>
+                </div>
+              </li>
+            </ul>
+            
+            <p class="section-text">
+              Tools
+            </p>
+            <ul class="skills-list">
+              <li data-reveal="bottom">
+                <div class="skill-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/skills-images/agile.png"
+                      width="52"
+                      height="52"
+                      loading="lazy"
+                      alt="web design icon"
+                    />
+                  </div>
+
+                  <h3 class="h4 card-title">Agile</h3>
+
+                  <p class="card-text">
+                    Software Development<br> Methodology
+                  </p>
+                </div>
+              </li>
+
+              <li data-reveal="bottom" data-reveal-delay="0.25s">
+                <div class="skill-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/skills-images/git.png"
+                      width="52"
+                      height="52"
+                      loading="lazy"
+                      alt="mobile design icon"
+                    />
+                  </div>
+
+                  <h3 class="h4 card-title">Git</h3>
+
+                  <p class="card-text">
+                    Version Control System
+                  </p>
+                </div>
+              </li>
+
+              <li data-reveal="bottom" data-reveal-delay="0.5s">
+                <div class="skill-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/skills-images/maven.jpg"
+                      width="52"
+                      height="52"
+                      loading="lazy"
+                      alt="web development icon"
+                    />
+                  </div>
+
+                  <h3 class="h4 card-title">Maven</h3>
+
+                  <p class="card-text">
+                    Build and Dependency <br>Management Tool
+                  </p>
+                </div>
+              </li>
+
+              <li data-reveal="bottom" data-reveal-delay="0.75s">
+                <div class="skill-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/skills-images/intellij.png"
+                      width="52"
+                      height="52"
+                      loading="lazy"
+                      alt="web seo icon"
+                    />
+                  </div>
+
+                  <h3 class="h4 card-title">IntelliJ</h3>
+
+                  <p class="card-text">
+                    Integrated Development <br> Environment (IDE)
+                  </p>
+                </div>
+              </li>
+            </ul>
+            <p class="section-text">
+              Other Skills
+            </p>
+            <ul class="skills-list">
+              <li data-reveal="bottom">
+                <div class="skill-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/skills-images/javascript.png"
+                      width="52"
+                      height="52"
+                      loading="lazy"
+                      alt="web design icon"
+                    />
+                  </div>
+
+                  <h3 class="h4 card-title">Javascript</h3>
+
+                  <p class="card-text">
+                    Programming Language
+                  </p>
+                </div>
+              </li>
+
+              <li data-reveal="bottom" data-reveal-delay="0.25s">
+                <div class="skill-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/skills-images/html5.png"
+                      width="52"
+                      height="52"
+                      loading="lazy"
+                      alt="mobile design icon"
+                    />
+                  </div>
+
+                  <h3 class="h4 card-title">HTML</h3>
+
+                  <p class="card-text">
+                    Hyper Text <br> Marking Language
+
+
+                  </p>
+                </div>
+              </li>
+
+              <li data-reveal="bottom" data-reveal-delay="0.5s">
+                <div class="skill-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/skills-images/css.png"
+                      width="52"
+                      height="52"
+                      loading="lazy"
+                      alt="web development icon"
+                    />
+                  </div>
+
+                  <h3 class="h4 card-title">CSS</h3>
+
+                  <p class="card-text">
+                    Cascading Style Sheets
+                  </p>
+                </div>
+              </li>
+
+            
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #PROJECT
+      -->
+
+        <section id="project-section" class="section project" aria-labelledby="project-label">
+          <div class="container">
+            <div class="title-wrapper" data-reveal="top">
+              <div>
+                <h2 class="h2 section-title" id="project-label">
+                  Latest Projects
+                </h2>
+
+                <p class="section-text">
+                  Check out some of my latest projects, eacho ne has been a great learning experience.
+                </p>
+              </div>
+
+              <a href="#" class="btn btn-secondary">See All Projects</a>
+            </div>
+
+            <ul class="grid-list">
+              <li>
+                <div
+                  class="project-card project-card-1"
+                  style="background-color: #f8f5fb"
+                >
+                  <div class="card-content" data-reveal="left">
+                 
+
+                    <h3 class="h3 card-title">Login System with Email Verification</h3>
+
+                    <p class="card-text">
+                      Java, Spring, Spring Security, Postman, PostgreSQL.
+                    </p>
+
+                    <a href="#" class="btn-text" style="color: #a07cc5">
+                      <span class="span">See Project</span>
+
+                      <ion-icon
+                        name="arrow-forward-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </a>
+                  </div>
+
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/Dvi2vPRCpSA" title="YouTube video player" 
+                  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+              </li>
+
+              <li>
+                <div
+                  class="project-card project-card-2"
+                  style="background-color: #f1f5fd"
+                >
+                  <div class="card-content" data-reveal="right">
+
+                    <h3 class="h3 card-title">FullStack Chat</h3>
+
+                    <p class="card-text">
+                      Backend: Java, Spring, Websocket <br>
+                      Frontend: HTML, CSS, Javascript, React, Vite, SockJS, StompJS
+                    </p>
+
+                    <a href="#" class="btn-text" style="color: #3f78e0">
+                      <span class="span">See Project</span>
+
+                      <ion-icon
+                        name="arrow-forward-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </a>
+                  </div>
+
+                  <figure class="card-banner" data-reveal="left">
+                    <img
+                      src="./assets/images/project-2.png"
+                      width="600"
+                      height="367"
+                      loading="lazy"
+                      alt="Web Design"
+                      class="w-100"
+                    />
+                  </figure>
+                </div>
+              </li>
+
+              <li>
+                <div
+                  class="project-card project-card-1"
+                  style="background-color: #f8f5fb"
+                >
+                  <div class="card-content" data-reveal="left">
+                 
+
+                    <h3 class="h3 card-title">SQL Todo List App</h3>
+
+                    <p class="card-text">
+                      Java, Spring, Hibernate, JPA, PostgreSQL, Javascript.
+                    </p>
+
+                    <a href="#" class="btn-text" style="color: #a07cc5">
+                      <span class="span">See Project</span>
+
+                      <ion-icon
+                        name="arrow-forward-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </a>
+                  </div>
+
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/fW69GYmiHBM" title="YouTube video player" 
+                  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+              </li>
+
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #CONTACT
+      -->
+
+        <section id="contact-section" class="section contact" aria-label="contact">
+          <div class="container">
+            <div class="contact-card">
+              <div class="contact-content" data-reveal="left">
+                <div class="card-icon">
+                  <img
+                    src="./assets/images/icon-5.svg"
+                    width="44"
+                    height="44"
+                    loading="lazy"
+                    alt="envelop icon"
+                  />
+                </div>
+
+                <h2 class="h2 section-title">
+                  If you like what you see, let's work together.
+                </h2>
+
+                <p class="section-text">
+                  I bring rapid solutions to make the life of my clients easier.
+                  Have any questions? Reach out to me from this contact form and
+                  I will get back to you shortly.
+                </p>
+              </div>
+
+              <form action="" class="contact-form" data-reveal="right">
+                <div class="input-wrapper">
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Name *"
+                    required
+                    class="input-field"
+                  />
+
+                  <input
+                    type="email"
+                    name="email_address"
+                    placeholder="Email *"
+                    required
+                    class="input-field"
+                  />
+                </div>
+
+                <textarea
+                  name="message"
+                  placeholder="Message *"
+                  required
+                  class="input-field"
+                ></textarea>
+
+                <button type="submit" class="btn btn-secondary">
+                  Send message
+                </button>
+              </form>
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer">
+      <div class="container">
+        <p class="copyright"></p>
+
+        <ul class="social-list">
+          <li>
+            <a href="https://www.linkedin.com/in/mario-dlr/" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://wa.me/5218682980026" class="social-link" target="_blank">
+              <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://github.com/mario2099" class="social-link" target="_blank">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
